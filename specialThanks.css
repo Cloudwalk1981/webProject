@@ -4,7 +4,9 @@ body {
     height: 100vh;
     width: 100vw;
     flex-direction: column;
-    margin: 0
+    margin: 0;
+    background-image: url(MatrixBackground.gif);
+
 }
 .topbar {
     display: flex;
@@ -19,6 +21,7 @@ body {
     padding-right: 50px;
     border-radius: 25px;
     box-shadow: 10px 10px white;
+    font-size: xx-large;
 }
 .midsection {
     display: flex;
@@ -28,13 +31,13 @@ body {
 }
 .midleft{
     display: flex;
-    background-color: rgb(90, 205, 119);
     height: 100%;
     width: 50%;
+    justify-content: space-evenly;
 }
+
 .midright{
     display: flex;
-    background-color: black;
     height: 100%;
     width: 50%;
     justify-content: center;
@@ -51,14 +54,17 @@ body {
 }
 .botbar {
     display: flex;
-    background-color: slateblue;
     height: 10%;
     width: 100%;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    justify-content: space-around;
 }
-.ul {
+.navbar {
+    display: flex;
+    background-color: rgb(104, 110, 116);
+
+}
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -74,6 +80,8 @@ li a {
     display: block;
     color: white;
     text-align: center;
+    font-size: xx-large;
+    text-shadow: orangered 2px 2px;
     padding: 14px 16px;
     text-decoration: none;
     }

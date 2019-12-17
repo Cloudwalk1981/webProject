@@ -5,6 +5,10 @@ body {
     width: 100vw;
     flex-direction: column;
     margin: 0;
+    background-image: url(MatrixBackground.gif);
+}
+p {
+    font-size: xx-large;
 }
 .topbar {
     display: flex;
@@ -19,6 +23,7 @@ body {
     padding-right: 50px;
     border-radius: 25px;
     box-shadow: 10px 10px white;
+    font-size: xx-large;
 }
 .midsection {
     display: flex;
@@ -30,10 +35,12 @@ body {
     display: flex;
     height: 100%;
     width: 50%;
+
 }
+
+
 .midright{
     display: flex;
-    background-color: black;
     height: 100%;
     width: 50%;
     justify-content: center;
@@ -51,14 +58,13 @@ body {
 .botbar {
     display: flex;
     height: 10%;
-    width: 80%;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content:center;
     align-items: center;
 }
 .navbar {
     display: flex;
     background-color: rgb(104, 110, 116);
-    align-items: center;
 
 }
 ul {
@@ -77,6 +83,8 @@ li a {
     display: block;
     color: white;
     text-align: center;
+    font-size: xx-large;
+    text-shadow: orangered 2px 2px;
     padding: 14px 16px;
     text-decoration: none;
     }
