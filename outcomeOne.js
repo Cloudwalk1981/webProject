@@ -80,9 +80,9 @@ button5.addEventListener('click', () => {
 
 })
 button6.addEventListener('click', () => {
-    myParagraph.textContent = ""
-    myParagraph2.textContent = ""
-    myParagraph3.textContent = ""
+    myParagraph.textContent = "In retrospective review, the tools we were taught to conduct this project have been very useful. "
+    myParagraph2.textContent = "Trello helped me to plan the project in a linear manner that also had some potential flexibility."
+    myParagraph3.textContent = "Github and Git have helped to synchronise versions of my project via the internet. I did access my work from home to review it and the GIt platform was very helpful."
     myParagraph4.textContent = ""
     myParagraph5.textContent = ""
     myParagraph6.textContent = ""
@@ -99,7 +99,7 @@ button7.addEventListener('click', () => {
 
 })
 button8.addEventListener('click', () => {
-    myParagraph.textContent = ""
+    myParagraph.textContent = "The tools that I have used for the project have been effective. However, due to my inexperience with this process I do not know if there are better tools to use that are not taught to me. "
     myParagraph2.textContent = ""
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""
@@ -109,7 +109,7 @@ button8.addEventListener('click', () => {
 
 })
 button9.addEventListener('click', () => {
-    myParagraph.textContent = ""
+    myParagraph.textContent = "The tools were up to the task, but again, with my limited knowledge of coding I do not know if there were tools more suitable to the tasks I needed to perform."
     myParagraph2.textContent = ""
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""
@@ -118,8 +118,8 @@ button9.addEventListener('click', () => {
     myParagraph7.textContent = ""
 })
 button10.addEventListener('click', () => {
-    myParagraph.textContent = ""
-    myParagraph2.textContent = ""
+    myParagraph.textContent = "In terms of functionality I am happy with my final project. I think it comes together nicely and that I have made some good use of the tools available to me."
+    myParagraph2.textContent = "Design, however is a different story. I am a little unhappy with the design, but I am not inherently good at artistic expression. I feel that I would be able to achieve my target vision in time, but I would likely need another week or so of research and tweaking before I would be truly happy."
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""
     myParagraph5.textContent = ""
@@ -127,7 +127,7 @@ button10.addEventListener('click', () => {
     myParagraph7.textContent = ""
 })
 button11.addEventListener('click', () => {
-    myParagraph.textContent = ""
+    myParagraph.textContent = "Besides the design improvements that I have mentioned, there are a few other things that I would prefer to addm but once again the time constraints worked against me and I ran out of development time."
     myParagraph2.textContent = ""
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""
@@ -136,7 +136,7 @@ button11.addEventListener('click', () => {
     myParagraph7.textContent = ""
 })
 button12.addEventListener('click', () => {
-    myParagraph.textContent = ""
+    myParagraph.textContent = "After reviewing my site and testing it, I feel that it is fit for purpose as it achieves all of my targets."
     myParagraph2.textContent = ""
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""
@@ -145,8 +145,8 @@ button12.addEventListener('click', () => {
     myParagraph7.textContent = ""
 })
 button13.addEventListener('click', () => {
-    myParagraph.textContent = ""
-    myParagraph2.textContent = ""
+    myParagraph.textContent = "I think that the tools and systems used were effective during this process and I am not sure how I could have been more efficient with my time. The main time consuming factor was the design element and that is something that I have very little experience with and it is not something that I am naturally good at."
+    myParagraph2.textContent = "I think that this project was too small to fully utilise a team, and was perfectly sized for a solo operation."
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""
     myParagraph5.textContent = ""
@@ -154,7 +154,7 @@ button13.addEventListener('click', () => {
     myParagraph7.textContent = ""
 })
 button14.addEventListener('click', () => {
-    myParagraph.textContent = ""
+    myParagraph.textContent = "If I were to find and establish a design technique that suited me then I think that I would be considerably more efficient in similar projects."
     myParagraph2.textContent = ""
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""
@@ -163,7 +163,7 @@ button14.addEventListener('click', () => {
     myParagraph7.textContent = ""
 })
 button15.addEventListener('click', () => {
-    myParagraph.textContent = ""
+    myParagraph.textContent = "If I were to undertake a similar project in future then I think that I would spend more time on the preliminary design phase. It would have been much easier to move forward if I had more certain of the elements I wished to include."
     myParagraph2.textContent = ""
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""
@@ -172,8 +172,8 @@ button15.addEventListener('click', () => {
     myParagraph7.textContent = ""
 })
 button16.addEventListener('click', () => {
-    myParagraph.textContent = ""
-    myParagraph2.textContent = ""
+    myParagraph.textContent = "I tested the website personally and I ran a Chrome extension that simulated the difficulties other users may have using my website."
+    myParagraph2.textContent = "After this, I asked a colleague to test to see if my website was as intuitive to them as it is to me."
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""
     myParagraph5.textContent = ""
@@ -181,11 +181,11 @@ button16.addEventListener('click', () => {
     myParagraph7.textContent = ""
 })
 button17.addEventListener('click', () => {
-    myParagraph.textContent = ""
-    myParagraph2.textContent = ""
-    myParagraph3.textContent = ""
-    myParagraph4.textContent = ""
-    myParagraph5.textContent = ""
+    myParagraph.textContent = "I have 4 web pages. One each for “Home”, “About Me”, “Outcomes” and “Special Thanks.”"
+    myParagraph2.textContent = "Home is a basic welcome page with some art and a very small introduction."
+    myParagraph3.textContent = "About Me is exactly that, details a little about me."
+    myParagraph4.textContent = "Outcomes shows all of the assignments for the project."
+    myParagraph5.textContent = "Special Thanks just gives thanks to my family for their support."
     myParagraph6.textContent = ""
     myParagraph7.textContent = ""
 })
@@ -210,7 +210,7 @@ button19.addEventListener('click', () => {
 
 })
 button20.addEventListener('click', () => {
-    myParagraph.textContent = ""
+    myParagraph.textContent = "A variety of files were used in the design of the website. Predominantly .html files for content, .css files for styling and .js files to make the interactive elements work properly. Also, .jpg and other image files were used as part of the display."
     myParagraph2.textContent = ""
     myParagraph3.textContent = ""
     myParagraph4.textContent = ""

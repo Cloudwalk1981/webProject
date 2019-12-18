@@ -39,11 +39,12 @@ body {
     height: 65%;
     width: 100%;
     align-content: space-around;
+    justify-content: center;
 }
 .midleft{
     display: flex;
     height: 70%;
-    width: 50%;
+    width: 30%;
     background-color: rgb(104, 110, 116);
     border-radius: 25px;
     box-shadow: 10px 10px white;
