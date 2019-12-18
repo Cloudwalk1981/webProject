@@ -10,6 +10,12 @@ body {
 p {
     font-size: xx-large;
 }
+.netpicture {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    
+}
 .topbar {
     display: flex;
     justify-content: center;
@@ -35,6 +41,7 @@ p {
     display: flex;
     height: 100%;
     width: 50%;
+    justify-content: space-evenly;
 
 }
 .midtext {
