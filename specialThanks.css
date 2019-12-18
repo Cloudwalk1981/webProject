@@ -1,7 +1,9 @@
+/* Universal Settings */
 h1 {
     text-align: center;
     align-self: center;
 }
+/* Main Body Settings */
 body {
     background-color:black;
     display: flex;
@@ -12,6 +14,7 @@ body {
     background-image: url(MatrixBackground.gif);
 
 }
+/* Heading Flex Box */
 .topbar {
     display: flex;
     justify-content: center;
@@ -19,6 +22,7 @@ body {
     height: 25%;
     width: 100%;
 }
+/* Title Settings */
 .topwriting{
     background-color: rgb(104, 110, 116);
     padding-left: 50px;
@@ -27,6 +31,7 @@ body {
     box-shadow: 10px 10px white;
     font-size: xx-large;
 }
+/* Mid Section Flex Box */
 .midsection {
     display: flex;
     height: 65%;
@@ -35,10 +40,11 @@ body {
     justify-content: center;
 
 }
+/* Thank You Text Box */
 .thanks{
     display: flex;
     height: 40%;
-    width: 100%;
+    width: 80%;
     background-color: rgb(104, 110, 116);
     margin: 50px;
     padding: 50px;
@@ -56,15 +62,7 @@ body {
     align-items: center;
     
 }
-.midtext {
-    display:flex;
-    background-color: rgb(104, 110, 116);
-    padding: 50px;
-    border-radius: 25px;
-    box-shadow: 10px 10px white;
-    justify-content: center;
-    width: 50%;
-}
+/* Bottom Section Flex Box */
 .botbar {
     display: flex;
     height: 10%;
@@ -72,6 +70,7 @@ body {
     justify-content:center;
     align-items: center;
 }
+/* Navigation Bar / Options */
 .navbar {
     display: flex;
     background-color: rgb(104, 110, 116);

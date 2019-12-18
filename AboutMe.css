@@ -1,3 +1,4 @@
+/* Main Body Settings */
 body {
     background-color:black;
     display: flex;
@@ -8,6 +9,7 @@ body {
     background-image: url(MatrixBackground.gif);
 
 }
+/* Heading Flex Box */
 .topbar {
     display: flex;
     justify-content: center;
@@ -15,6 +17,7 @@ body {
     height: 25%;
     width: 100%;
 }
+/* Title Settings */
 .topwriting{
     background-color: rgb(104, 110, 116);
     padding-left: 50px;
@@ -23,19 +26,21 @@ body {
     box-shadow: 10px 10px white;
     font-size: xx-large;
 }
+/* Mid Section Flex Box */
 .midsection {
     display: flex;
     height: 65%;
     width: 100%;
 
 }
+/* Mid Section Sub Flex Box / Left */
 .midleft{
     display: flex;
     height: 100%;
     width: 50%;
     justify-content: space-evenly;
 }
-
+/* Mid Section Sub Flex Box / Right */
 .midright{
     display: flex;
     height: 100%;
@@ -43,6 +48,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* About Me Text */
 .midtext {
     display:flex;
     background-color: rgb(104, 110, 116);
@@ -52,6 +58,7 @@ body {
     justify-content: center;
     width: 50%;
 }
+/* Bottom Section Flex Box */
 .botbar {
     display: flex;
     height: 10%;
@@ -59,6 +66,7 @@ body {
     justify-content:center;
     align-items: center;
 }
+/* Navigation Bar / Options */
 .navbar {
     display: flex;
     background-color: rgb(104, 110, 116);

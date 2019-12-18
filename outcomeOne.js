@@ -1,3 +1,4 @@
+//Variables//
 let myParagraph = document.getElementById("myP")
 let myParagraph2 = document.getElementById("myP2")
 let myParagraph3 = document.getElementById("myP3")
@@ -6,6 +7,7 @@ let myParagraph5 = document.getElementById("myP5")
 let myParagraph6 = document.getElementById("myP6")
 let myParagraph7 = document.getElementById("myP7")
 
+//Buttons//
 let button1 = document.getElementById("1.1.1")
 let button2 = document.getElementById("1.1.2")
 let button3 = document.getElementById("1.1.3")
@@ -28,7 +30,7 @@ let button19 = document.getElementById("2.1.6")
 let button20 = document.getElementById("2.1.7")
 
 
-
+//Button Responses//
 button1.addEventListener('click', () => {
     myParagraph.textContent = "IT has a critical role in the modern business environment. All busy dealing are, at a base level, about exchanges of information. Whether that be something as complicated and evaluating the taxes of a huge corporation, or if it is something as simple as telling the cashier how you would like you coffee to be prepared. Well, IT is literally Information Technology. The technology to access, transfer and store huge quantities of data. This technology allows businesses and individuals to manipulate, collate, share, hide or reveal simply huge amounts of data that would have been nothing short of miraculous before the modern era."
     myParagraph2.textContent = ""

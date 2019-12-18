@@ -1,3 +1,4 @@
+/* Universal Settings */
 h3 {
     text-align: center;
     text-shadow:black 2px 2px;
@@ -13,6 +14,7 @@ button {
     align-self: center;
     font-size: medium;
 }
+/* Main Body Settings */
 body {
     display: flex;
     height: 100vh;
@@ -20,8 +22,8 @@ body {
     flex-direction: column;
     margin: 0;
     background-image: url(MatrixBackground.gif);
-
 }
+/* Heading Flex Box */
 .topbar {
     display: flex;
     justify-content: center;
@@ -29,6 +31,7 @@ body {
     height: 25%;
     width: 100%;
 }
+/* Title Settings */
 .topwriting{
     background-color: rgb(104, 110, 116);
     padding-left: 50px;
@@ -37,6 +40,7 @@ body {
     box-shadow: 10px 10px white;
     font-size: xx-large;
 }
+/* Mid Section Flex Box */
 .midsection {
     display: flex;
     height: 65%;
@@ -44,6 +48,7 @@ body {
     align-content: space-around;
     justify-content: center;
 }
+/* Mid Section Sub Flex Box / Left */
 .midleft{
     display: flex;
     height: 70%;
@@ -56,24 +61,27 @@ body {
     align-self: center;
     flex-direction: column;
 }
+/* Mid Section Sub Flex Box / Left / Top*/
 .midleftTop {
     display: flex;
     height: 40%;
 }
+/* Mid Section Sub Flex Box / Left / Top / List One */
 .listOne {
     display: flex;
     height: 30%;
     width: 33.3%;
     flex-direction: column;
 }
+/* Mid Section Sub Flex Box / Left / Top / List Two */
 .listTwo {
     display: flex;
     height: 30%;
     width: 33.3%;
     width: 33.3%;
     flex-direction: column;
-
 }
+/* Mid Section Sub Flex Box / Left / Top / List Three */
 .listThree {
     display: flex;
     height: 30%;
@@ -81,6 +89,7 @@ body {
     width: 33.3%;
     flex-direction: column;
 }
+/* Mid Section Sub Flex Box / Left / Bot / List */
 .midleftBot {
     display: flex;
     height: 30%;
@@ -88,10 +97,7 @@ body {
     flex-direction: column;
 
 }
-.listObject {
-    width: 33.3%;
-    height: 100%;
-}
+/* Mid Section Sub Flex Box */
 .midright{
     display: flex;
     height: 100%;
@@ -99,6 +105,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* Outcome Display */
 .midtext {
     display:flex;
     background-color: rgb(104, 110, 116);
@@ -109,6 +116,7 @@ body {
     width: 50%;
     flex-direction: column;
 }
+/* Bottom Section Flex Box */
 .botbar {
     display: flex;
     height: 10%;
@@ -121,6 +129,7 @@ body {
     background-color: rgb(104, 110, 116);
 
 }
+/* Navigation Bar / Options */
 .mainNavList {
     list-style-type: none;
     margin: 0;
