@@ -32,12 +32,13 @@ body {
     height: 65%;
     width: 100%;
     flex-direction: column;
+    justify-content: center;
 
 }
 .thanks{
     display: flex;
     height: 40%;
-    width: 100%;
+    width: 75%;
     background-color: rgb(104, 110, 116);
     margin: 50px;
     padding: 50px;
@@ -53,6 +54,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    
 }
 .midtext {
     display:flex;
