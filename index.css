@@ -37,15 +37,6 @@ p {
     width: 50%;
 
 }
-
-
-.midright{
-    display: flex;
-    height: 100%;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-}
 .midtext {
     display:flex;
     background-color: rgb(104, 110, 116);
@@ -54,6 +45,14 @@ p {
     box-shadow: 10px 10px white;
     justify-content: center;
     width: 50%;
+}
+
+.midright{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 .botbar {
     display: flex;

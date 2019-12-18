@@ -24,7 +24,7 @@ body {
 }
 .midsection {
     display: flex;
-    height: 20%;
+    height: 65%;
     width: 100%;
 
 }
@@ -37,6 +37,21 @@ body {
     padding-right: 50px;
     border-radius: 25px;
     box-shadow: 10px 10px white;
+}
+.listOne {
+    display: flex;
+    height: 100%;
+    width: 33.3%;
+}
+.listTwo {
+    display: flex;
+    height: 100%;
+    width: 33.3%;
+}
+.listThree {
+    display: flex;
+    height: 100%;
+    width: 33.3%;
 
 }
 .listObject {
@@ -59,11 +74,6 @@ body {
     justify-content: center;
     width: 50%;
 }
-.maintext {
-    display: flex;
-    height: 45%;
-    width: 100%;
-}
 .botbar {
     display: flex;
     height: 10%;
@@ -75,8 +85,9 @@ body {
     display: flex;
     background-color: rgb(104, 110, 116);
     align-items: center;
+
 }
-.contentList {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -84,11 +95,11 @@ body {
     background-color: #333;
 }
       
-.listObject {
+li {
     float: left;
 }
       
-.listObject a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -98,6 +109,6 @@ body {
     text-decoration: none;
     }
       
-.listObject a:hover {
+li a:hover {
     background-color: #111;
 }
