@@ -64,7 +64,7 @@ body {
     background-color: rgb(104, 110, 116);
 
 }
-ul {
+.mainNavList {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -72,11 +72,11 @@ ul {
     background-color: #333;
 }
       
-li {
+.navList {
     float: left;
 }
       
-li a {
+.navList a {
     display: block;
     color: white;
     text-align: center;
@@ -86,6 +86,6 @@ li a {
     text-decoration: none;
     }
       
-li a:hover {
+.navList a:hover {
     background-color: #111;
 }
