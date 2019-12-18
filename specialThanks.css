@@ -38,14 +38,14 @@ body {
 .thanks{
     display: flex;
     height: 40%;
-    width: 75%;
+    width: 100%;
     background-color: rgb(104, 110, 116);
     margin: 50px;
     padding: 50px;
     border-radius: 25px;
     box-shadow: 10px 10px white;
     font-size: large;
-
+    justify-items: center;
 }
 
 .picture{

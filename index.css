@@ -99,3 +99,19 @@ p {
 .navList a:hover {
     background-color: #111;
 }
+
+
+@media only screen and (max-width: 600px) {
+   
+    .topwriting{
+        background-color:red;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 25px;
+        box-shadow: 10px 10px white;
+        font-size: xx-large;
+    }
+
+
+    
+}
