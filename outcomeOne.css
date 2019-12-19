@@ -4,15 +4,12 @@ h3 {
     text-shadow:black 2px 2px;
     color: red
 }
-p {
-    font-size: large;
-}
 button {
     color: white;
     background-color: black;
-    max-width: 100px;
     align-self: center;
     font-size: medium;
+    width: 50px;
 }
 /* Main Body Settings */
 body {
@@ -45,55 +42,71 @@ body {
     display: flex;
     height: 65%;
     width: 100%;
-    align-content: space-around;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 /* Mid Section Sub Flex Box / Left */
 .midleft{
     display: flex;
     height: 70%;
-    width: 30%;
+    width: 40%;
     background-color: rgb(104, 110, 116);
+    padding: 15px;
     border-radius: 25px;
     box-shadow: 10px 10px white;
     justify-content: center;
-    justify-items: center;
-    align-self: center;
+    width: 50%;
+
     flex-direction: column;
 }
-/* Mid Section Sub Flex Box / Left / Top*/
-.midleftTop {
-    display: flex;
-    height: 40%;
+.leftHeadings{
+    display:flex;
+    height:20%;
+    width:100%;
 }
-/* Mid Section Sub Flex Box / Left / Top / List One */
+.One {
+    display:flex;
+    height: 100%;
+    width: 75%;
+    justify-content: center;
+}
+.Two {
+    display: flex;
+    height: 100%;
+    width:25%;
+    justify-content: center;
+
+}
+.leftAnswers{
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+/* Mid Section Sub Flex Box / Left / List One */
 .listOne {
     display: flex;
     height: 30%;
-    width: 33.3%;
+    width: 25%;
     flex-direction: column;
 }
-/* Mid Section Sub Flex Box / Left / Top / List Two */
+/* Mid Section Sub Flex Box / Left / List Two */
 .listTwo {
     display: flex;
     height: 30%;
-    width: 33.3%;
-    width: 33.3%;
+    width: 25%;
     flex-direction: column;
 }
-/* Mid Section Sub Flex Box / Left / Top / List Three */
+/* Mid Section Sub Flex Box / Left / List Three */
 .listThree {
     display: flex;
     height: 30%;
-    width: 33.3%;
-    width: 33.3%;
+    width: 25%;
     flex-direction: column;
 }
-/* Mid Section Sub Flex Box / Left / Bot / List */
-.midleftBot {
+/* Mid Section Sub Flex Box / Left / List Four */
+.listFour {
     display: flex;
     height: 30%;
-    width: 100;
+    width: 25%;
     flex-direction: column;
 
 }
@@ -101,7 +114,7 @@ body {
 .midright{
     display: flex;
     height: 100%;
-    width: 50%;
+    width: 40%;
     justify-content: center;
     align-items: center;
 }
@@ -109,7 +122,7 @@ body {
 .midtext {
     display:flex;
     background-color: rgb(104, 110, 116);
-    padding: 50px;
+    padding: 15px;
     border-radius: 25px;
     box-shadow: 10px 10px white;
     justify-content: center;
